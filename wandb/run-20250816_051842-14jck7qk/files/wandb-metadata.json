@@ -1,0 +1,54 @@
+{
+  "os": "Linux-6.8.0-65-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-08-15T22:18:42.337826Z",
+  "args": [
+    "--train-path",
+    "ensemble_results/combine_data/combined_data_selective_2.csv",
+    "--test-path",
+    "data/test.csv",
+    "--model-name",
+    "NlpHUST/electra-base-vn",
+    "--epochs",
+    "15",
+    "--batch-size",
+    "32",
+    "--max-length",
+    "256",
+    "--learning-rate",
+    "2e-5"
+  ],
+  "program": "/home/pc/Code/ESG code/ESG-classifying/train.py",
+  "codePath": "train.py",
+  "email": "trung235689@gmail.com",
+  "root": "/home/pc/Code/ESG code/ESG-classifying",
+  "host": "trung-ai",
+  "executable": "/home/pc/anaconda3/envs/bert_test/bin/python",
+  "codePathLocal": "train.py",
+  "cpu_count": 28,
+  "cpu_count_logical": 56,
+  "gpu": "NVIDIA GeForce RTX 4070 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "982820896768",
+      "used": "498802466816"
+    }
+  },
+  "memory": {
+    "total": "67279835136"
+  },
+  "cpu": {
+    "count": 28,
+    "countLogical": 56
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4070 Ti",
+      "memoryTotal": "12878610432",
+      "cudaCores": 7680,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.2"
+}

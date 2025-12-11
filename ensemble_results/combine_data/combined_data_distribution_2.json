@@ -1,0 +1,27 @@
+{
+    "0": {
+        "total": 11077,
+        "original": 8877,
+        "pseudo": 2200
+    },
+    "1": {
+        "total": 10009,
+        "original": 9009,
+        "pseudo": 1000
+    },
+    "2": {
+        "total": 11310,
+        "original": 10726,
+        "pseudo": 584
+    },
+    "3": {
+        "total": 9604,
+        "original": 9024,
+        "pseudo": 580
+    },
+    "remaining": {
+        "0": 2012,
+        "1": 952,
+        "2": 964
+    }
+}

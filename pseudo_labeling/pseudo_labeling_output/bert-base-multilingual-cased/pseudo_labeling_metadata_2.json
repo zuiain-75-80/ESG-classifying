@@ -1,0 +1,22 @@
+{
+  "confidence_threshold": 0.91,
+  "total_pseudo_labels": 9494,
+  "labels": [
+    "Irrelevant",
+    "Evironment",
+    "Social",
+    "Governance"
+  ],
+  "generation_timestamp": "2025-08-15T21:39:34.063382",
+  "statistics": {
+    "average_confidence": 0.988967302286527,
+    "min_confidence": 0.9100855588912964,
+    "max_confidence": 0.9994695782661438,
+    "label_distribution": {
+      "Irrelevant": 4017,
+      "Evironment": 2791,
+      "Social": 2161,
+      "Governance": 525
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "Total pseudo labels": 25771,
+    "Average confidence": 0.9972725813426625,
+    "Label distribution": {
+        "Evironment": 8830,
+        "Social": 7667,
+        "Governance": 6300,
+        "Irrelevant": 2974
+    }
+}

@@ -1,0 +1,54 @@
+  0%|                                                                                                                                 | 0/20000 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/pc/Code/ESG code/ESG-classifying/train.py", line 51, in main
+    results = trainer.train_model()
+  File "/home/pc/Code/ESG code/ESG-classifying/models/model_trainer.py", line 141, in train_model
+    train_result = trainer.train()
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/transformers/trainer.py", line 3736, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/transformers/trainer.py", line 3801, in compute_loss
+    outputs = model(**inputs)
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/transformers/models/deberta_v2/modeling_deberta_v2.py", line 1179, in forward
+    outputs = self.deberta(
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/transformers/models/deberta_v2/modeling_deberta_v2.py", line 874, in forward
+    encoder_outputs = self.encoder(
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/transformers/models/deberta_v2/modeling_deberta_v2.py", line 674, in forward
+    output_states, attn_weights = layer_module(
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/transformers/models/deberta_v2/modeling_deberta_v2.py", line 442, in forward
+    attention_output, att_matrix = self.attention(
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/transformers/models/deberta_v2/modeling_deberta_v2.py", line 375, in forward
+    self_output, att_matrix = self.self(
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/transformers/models/deberta_v2/modeling_deberta_v2.py", line 255, in forward
+    rel_att = self.disentangled_attention_bias(
+  File "/home/pc/anaconda3/envs/bert_test/lib/python3.10/site-packages/transformers/models/deberta_v2/modeling_deberta_v2.py", line 327, in disentangled_attention_bias
+    c2p_att = torch.bmm(query_layer, pos_key_layer.transpose(-1, -2))
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 192.00 MiB. GPU 0 has a total capacity of 11.73 GiB of which 167.50 MiB is free. Process 2626 has 195.19 MiB memory in use. Including non-PyTorch memory, this process has 11.15 GiB memory in use. Of the allocated memory 10.91 GiB is allocated by PyTorch, and 18.98 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Lỗi trong quá trình training: CUDA out of memory. Tried to allocate 192.00 MiB. GPU 0 has a total capacity of 11.73 GiB of which 167.50 MiB is free. Process 2626 has 195.19 MiB memory in use. Including non-PyTorch memory, this process has 11.15 GiB memory in use. Of the allocated memory 10.91 GiB is allocated by PyTorch, and 18.98 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  0%|                                                                                                                                 | 0/20000 [00:00<?, ?it/s]

@@ -1,0 +1,59 @@
+{
+  "data_path": "ensemble_results/combine_data/combined_data_selective_2.csv",
+  "test_path": "data/test.csv",
+  "labels": [
+    "Irrelevant",
+    "Evironment",
+    "Social",
+    "Governance"
+  ],
+  "dataset_info": {
+    "train_path": "ensemble_results/combine_data/combined_data_selective_2.csv",
+    "test_path": "data/test.csv",
+    "train_size": 42000,
+    "test_size": 3000,
+    "labels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "label_distribution": {
+      "0": 11077,
+      "1": 10009,
+      "2": 11310,
+      "3": 9604
+    },
+    "total_samples": 45000
+  },
+  "train_metrics": {
+    "train_runtime": 5908.9854,
+    "train_samples_per_second": 54.155,
+    "train_steps_per_second": 3.385,
+    "total_flos": 4.209927979008e+16,
+    "train_loss": 0.26045586835904977,
+    "epoch": 7.619047619047619
+  },
+  "eval_metrics": {
+    "eval_loss": 0.35697290301322937,
+    "eval_f1_macro": 0.9286461895229947,
+    "eval_f1_micro": 0.931,
+    "eval_f1_weighted": 0.930887793580985,
+    "eval_precision": 0.9325563857764269,
+    "eval_recall": 0.931,
+    "eval_accuracy": 0.931,
+    "eval_runtime": 17.3233,
+    "eval_samples_per_second": 173.177,
+    "eval_steps_per_second": 10.852,
+    "epoch": 7.619047619047619
+  },
+  "model_config": {
+    "model_name": "Fsoft-AIC/videberta-base",
+    "max_length": 256,
+    "num_epochs": 15,
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "warmup_steps": 500,
+    "weight_decay": 0.01
+  }
+}

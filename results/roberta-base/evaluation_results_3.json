@@ -1,0 +1,52 @@
+{
+  "model_path": "saved_model/roberta-base",
+  "data_path": "data/test.csv",
+  "test_size": 3000,
+  "evaluation_results": {
+    "f1_macro": 0.9148351409437917,
+    "f1_micro": 0.918,
+    "f1_weighted": 0.9179552980912552,
+    "precision": 0.919700016824542,
+    "recall": 0.918,
+    "accuracy": 0.918
+  },
+  "per_class_results": {
+    "0": {
+      "precision": 0.839563862928349,
+      "recall": 0.8983333333333333,
+      "f1-score": 0.8679549114331723,
+      "support": 600.0
+    },
+    "1": {
+      "precision": 0.9582836710369488,
+      "recall": 0.9804878048780488,
+      "f1-score": 0.969258589511754,
+      "support": 820.0
+    },
+    "2": {
+      "precision": 0.948051948051948,
+      "recall": 0.8588235294117647,
+      "f1-score": 0.9012345679012346,
+      "support": 850.0
+    },
+    "3": {
+      "precision": 0.9092122830440588,
+      "recall": 0.9328767123287671,
+      "f1-score": 0.920892494929006,
+      "support": 730.0
+    },
+    "accuracy": 0.918,
+    "macro avg": {
+      "precision": 0.9137779412653262,
+      "recall": 0.9176303449879786,
+      "f1-score": 0.9148351409437917,
+      "support": 3000.0
+    },
+    "weighted avg": {
+      "precision": 0.919700016824542,
+      "recall": 0.918,
+      "f1-score": 0.9179552980912552,
+      "support": 3000.0
+    }
+  }
+}

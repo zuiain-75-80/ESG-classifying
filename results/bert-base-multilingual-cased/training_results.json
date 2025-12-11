@@ -1,0 +1,59 @@
+{
+  "data_path": "data/train_subset3.csv",
+  "test_path": "data/test.csv",
+  "labels": [
+    "Irrelevant",
+    "Evironment",
+    "Social",
+    "Governance"
+  ],
+  "dataset_info": {
+    "train_path": "data/train_subset3.csv",
+    "test_path": "data/test.csv",
+    "train_size": 10000,
+    "test_size": 3000,
+    "labels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "label_distribution": {
+      "0": 2197,
+      "1": 1579,
+      "2": 3662,
+      "3": 2562
+    },
+    "total_samples": 13000
+  },
+  "train_metrics": {
+    "train_runtime": 4161.0416,
+    "train_samples_per_second": 76.904,
+    "train_steps_per_second": 4.806,
+    "total_flos": 4.209852481536e+16,
+    "train_loss": 0.08989759086584345,
+    "epoch": 32.0
+  },
+  "eval_metrics": {
+    "eval_loss": 0.9808902740478516,
+    "eval_f1_macro": 0.857138290096005,
+    "eval_f1_micro": 0.8666666666666667,
+    "eval_f1_weighted": 0.8653756386592938,
+    "eval_precision": 0.865318697886834,
+    "eval_recall": 0.8666666666666667,
+    "eval_accuracy": 0.8666666666666667,
+    "eval_runtime": 10.8298,
+    "eval_samples_per_second": 277.014,
+    "eval_steps_per_second": 17.36,
+    "epoch": 32.0
+  },
+  "model_config": {
+    "model_name": "google-bert/bert-base-multilingual-cased",
+    "max_length": 256,
+    "num_epochs": 10,
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "warmup_steps": 500,
+    "weight_decay": 0.01
+  }
+}

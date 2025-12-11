@@ -1,0 +1,52 @@
+{
+  "model_path": "saved_model/visobert",
+  "data_path": "data/test.csv",
+  "test_size": 3000,
+  "evaluation_results": {
+    "f1_macro": 0.8610677061972221,
+    "f1_micro": 0.8723333333333333,
+    "f1_weighted": 0.870529102663076,
+    "precision": 0.8729249751730964,
+    "recall": 0.8723333333333333,
+    "accuracy": 0.8723333333333333
+  },
+  "per_class_results": {
+    "0": {
+      "precision": 0.8067729083665338,
+      "recall": 0.675,
+      "f1-score": 0.73502722323049,
+      "support": 600.0
+    },
+    "1": {
+      "precision": 0.9734513274336283,
+      "recall": 0.9390243902439024,
+      "f1-score": 0.9559279950341403,
+      "support": 820.0
+    },
+    "2": {
+      "precision": 0.8723163841807909,
+      "recall": 0.908235294117647,
+      "f1-score": 0.8899135446685879,
+      "support": 850.0
+    },
+    "3": {
+      "precision": 0.8150851581508516,
+      "recall": 0.9178082191780822,
+      "f1-score": 0.8634020618556701,
+      "support": 730.0
+    },
+    "accuracy": 0.8723333333333333,
+    "macro avg": {
+      "precision": 0.8669064445329511,
+      "recall": 0.860016975884908,
+      "f1-score": 0.8610677061972221,
+      "support": 3000.0
+    },
+    "weighted avg": {
+      "precision": 0.8729249751730964,
+      "recall": 0.8723333333333333,
+      "f1-score": 0.870529102663076,
+      "support": 3000.0
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{"time":"2025-08-15T22:59:43.903876591+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/pc/Code/ESG code/ESG-classifying/wandb/run-20250815_225943-rsa1aess/logs/debug-core.log"}
+{"time":"2025-08-15T22:59:44.74196668+07:00","level":"INFO","msg":"created new stream","id":"rsa1aess"}
+{"time":"2025-08-15T22:59:44.742129467+07:00","level":"INFO","msg":"stream: started","id":"rsa1aess"}
+{"time":"2025-08-15T22:59:44.742199713+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"rsa1aess"}
+{"time":"2025-08-15T22:59:44.74226288+07:00","level":"INFO","msg":"sender: started","stream_id":"rsa1aess"}
+{"time":"2025-08-15T22:59:44.742361918+07:00","level":"INFO","msg":"handler: started","stream_id":"rsa1aess"}
+{"time":"2025-08-15T22:59:45.300170257+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-15T23:33:31.777063655+07:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/trung235689/Training%20ensemble%20pseudo%20label%20for%20classify%20ESG/rsa1aess/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-08-16T00:41:56.930521864+07:00","level":"INFO","msg":"stream: closing","id":"rsa1aess"}
+{"time":"2025-08-16T00:41:56.93057657+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-16T00:41:56.930617243+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-16T00:41:59.156684542+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-16T00:41:59.499497729+07:00","level":"INFO","msg":"handler: closed","stream_id":"rsa1aess"}
+{"time":"2025-08-16T00:41:59.499592319+07:00","level":"INFO","msg":"sender: closed","stream_id":"rsa1aess"}
+{"time":"2025-08-16T00:41:59.499581281+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rsa1aess"}
+{"time":"2025-08-16T00:41:59.499734134+07:00","level":"INFO","msg":"stream: closed","id":"rsa1aess"}

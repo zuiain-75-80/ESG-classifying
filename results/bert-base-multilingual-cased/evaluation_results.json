@@ -1,0 +1,52 @@
+{
+  "model_path": "saved_model/bert-base-multilingual-cased",
+  "data_path": "data/test.csv",
+  "test_size": 3000,
+  "evaluation_results": {
+    "f1_macro": 0.857138290096005,
+    "f1_micro": 0.8666666666666667,
+    "f1_weighted": 0.8653756386592938,
+    "precision": 0.865318697886834,
+    "recall": 0.8666666666666667,
+    "accuracy": 0.8666666666666667
+  },
+  "per_class_results": {
+    "0": {
+      "precision": 0.7597173144876325,
+      "recall": 0.7166666666666667,
+      "f1-score": 0.7375643224699828,
+      "support": 600.0
+    },
+    "1": {
+      "precision": 0.9491124260355029,
+      "recall": 0.9780487804878049,
+      "f1-score": 0.9633633633633634,
+      "support": 820.0
+    },
+    "2": {
+      "precision": 0.8771712158808933,
+      "recall": 0.831764705882353,
+      "f1-score": 0.8538647342995169,
+      "support": 850.0
+    },
+    "3": {
+      "precision": 0.8441890166028098,
+      "recall": 0.9054794520547945,
+      "f1-score": 0.8737607402511567,
+      "support": 730.0
+    },
+    "accuracy": 0.8666666666666667,
+    "macro avg": {
+      "precision": 0.8575474932517096,
+      "recall": 0.8579899012729048,
+      "f1-score": 0.857138290096005,
+      "support": 3000.0
+    },
+    "weighted avg": {
+      "precision": 0.865318697886834,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.8653756386592938,
+      "support": 3000.0
+    }
+  }
+}

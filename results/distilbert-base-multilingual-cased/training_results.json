@@ -1,0 +1,59 @@
+{
+  "data_path": "data/train_subset1.csv",
+  "test_path": "data/test.csv",
+  "labels": [
+    "Irrelevant",
+    "Evironment",
+    "Social",
+    "Governance"
+  ],
+  "dataset_info": {
+    "train_path": "data/train_subset1.csv",
+    "test_path": "data/test.csv",
+    "train_size": 10000,
+    "test_size": 3000,
+    "labels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "label_distribution": {
+      "0": 2180,
+      "1": 1607,
+      "2": 3666,
+      "3": 2547
+    },
+    "total_samples": 13000
+  },
+  "train_metrics": {
+    "train_runtime": 2478.2121,
+    "train_samples_per_second": 129.125,
+    "train_steps_per_second": 8.07,
+    "total_flos": 2.119553974272e+16,
+    "train_loss": 0.07947667485352122,
+    "epoch": 32.0
+  },
+  "eval_metrics": {
+    "eval_loss": 1.3277758359909058,
+    "eval_f1_macro": 0.862452525743768,
+    "eval_f1_micro": 0.8736666666666667,
+    "eval_f1_weighted": 0.871201608035645,
+    "eval_precision": 0.8774135956188318,
+    "eval_recall": 0.8736666666666667,
+    "eval_accuracy": 0.8736666666666667,
+    "eval_runtime": 6.7693,
+    "eval_samples_per_second": 443.18,
+    "eval_steps_per_second": 27.773,
+    "epoch": 32.0
+  },
+  "model_config": {
+    "model_name": "distilbert/distilbert-base-multilingual-cased",
+    "max_length": 256,
+    "num_epochs": 10,
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "warmup_steps": 500,
+    "weight_decay": 0.01
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "data_path": "ensemble_results/combine_data/combined_data_selective.csv",
+  "test_path": "data/test.csv",
+  "labels": [
+    "Irrelevant",
+    "Evironment",
+    "Social",
+    "Governance"
+  ],
+  "dataset_info": {
+    "train_path": "ensemble_results/combine_data/combined_data_selective.csv",
+    "test_path": "data/test.csv",
+    "train_size": 37636,
+    "test_size": 3000,
+    "labels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "label_distribution": {
+      "0": 8877,
+      "1": 9009,
+      "2": 10726,
+      "3": 9024
+    },
+    "total_samples": 40636
+  },
+  "train_metrics": {
+    "train_runtime": 6637.3378,
+    "train_samples_per_second": 91.603,
+    "train_steps_per_second": 5.725,
+    "total_flos": 7.996193803429478e+16,
+    "train_loss": 0.0794698631078469,
+    "epoch": 16.149596260093496
+  },
+  "eval_metrics": {
+    "eval_loss": 0.6582972407341003,
+    "eval_f1_macro": 0.9072570068649637,
+    "eval_f1_micro": 0.9106666666666666,
+    "eval_f1_weighted": 0.9102298975326162,
+    "eval_precision": 0.9143762644151614,
+    "eval_recall": 0.9106666666666666,
+    "eval_accuracy": 0.9106666666666666,
+    "eval_runtime": 9.1931,
+    "eval_samples_per_second": 326.33,
+    "eval_steps_per_second": 20.45,
+    "epoch": 16.149596260093496
+  },
+  "model_config": {
+    "model_name": "vinai/phobert-base",
+    "max_length": 256,
+    "num_epochs": 10,
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "warmup_steps": 500,
+    "weight_decay": 0.01
+  }
+}

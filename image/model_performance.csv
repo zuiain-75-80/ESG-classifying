@@ -1,0 +1,8 @@
+Model,Overall Accuracy (%),Irrelevant F1 Score,Environment F1 Score,Social F1 Score,Governance F1 Score
+BERT-base-multilingual,86.66,73.75,96.36,85.38,87.37
+DistilBERT-base-multilingual,87.36,74.44,96.64,87.52,86.36
+Vi-Electra,88.2,75.81,97.01,88.61,87.02
+PhoBert,86.43,72.58,95.2,88.52,84.17
+RoBerta-base,80.3,61.49,90.99,80.24,80.78
+viDeberta,84.14,67.97,94.07,83.64,84.17
+visobert,87.23,73.5,95.59,88.99,86.34
